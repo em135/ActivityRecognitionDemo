@@ -1,0 +1,6 @@
+framework module Pods_ActivityRecognitionDemo {
+  umbrella header "Pods-ActivityRecognitionDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
