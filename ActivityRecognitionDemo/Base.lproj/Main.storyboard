@@ -16,17 +16,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RFx-Km-r7H" customClass="PieChartView" customModule="Charts">
-                                <rect key="frame" x="16" y="144" width="736" height="736"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="RFx-Km-r7H" secondAttribute="height" multiplier="1:1" id="V6H-cV-Jod"/>
-                                </constraints>
+                                <rect key="frame" x="16" y="16" width="736" height="992"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="RFx-Km-r7H" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="144" id="1tM-iv-6Oa"/>
-                            <constraint firstItem="RFx-Km-r7H" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="YYL-fs-hmW"/>
-                            <constraint firstItem="RFx-Km-r7H" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="plm-TM-TLR"/>
+                            <constraint firstItem="RFx-Km-r7H" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="4jI-Gg-U7q"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RFx-Km-r7H" secondAttribute="trailing" constant="16" id="Ct0-Cl-22q"/>
+                            <constraint firstItem="RFx-Km-r7H" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="cOf-8n-gPC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="RFx-Km-r7H" secondAttribute="bottom" constant="16" id="xX8-Nd-kjy"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
